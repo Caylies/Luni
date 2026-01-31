@@ -1,6 +1,6 @@
 # Luni
 
-![Luni banner](docs/assets/banner.png)
+![Luni banner](assets/banner.png)
 
 Luni is a Luau linter that delivers real-time diagnostics directly inside **Roblox Studio**, helping you maintain clean, consistent code as you write.
 

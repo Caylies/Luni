@@ -1,0 +1,9 @@
+[project]
+name = "luni"
+version = "0.1.0"
+description = "A linter with real-time diagnostics for Luau in Roblox Studio."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mkdocs-material>=9.7.1",
+]

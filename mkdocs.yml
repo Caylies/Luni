@@ -1,0 +1,58 @@
+site_name: Luni
+repo_url: https://github.com/Caylies/Luni
+repo_name: Caylies/Luni
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: slate
+      primary: purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+
+    - scheme: default
+      primary: purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+
+  highlightjs: false
+
+  features:
+    - content.code.annotate
+    - content.tooltips
+    - navigation.instant
+    - navigation.path
+    - navigation.indexes
+    - content.tabs.link
+    - content.code.select
+    - content.code.copy
+
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
